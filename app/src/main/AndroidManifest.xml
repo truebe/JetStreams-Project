@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jetstreams.jetstreamsproject">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCAPqq3DwSpRGy1-bKP13O4T4oqmP7LJd8"/>
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Trends" />
+        <activity android:name=".Hotels"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".aTrends"/>
+        <activity android:name=".hTrends"/>
+        <activity android:name=".aTrendIntro" />
+        <activity android:name=".Austin" />
+        <activity android:name=".Tampa" />
+        <activity android:name=".NY" />
+        <activity android:name=".DC" />
+        <activity android:name=".Chicago" />
+        <activity android:name=".Seattle" />
+        <activity android:name=".hTrendsIntro" />
+        <activity android:name=".Marriott" />
+        <activity android:name=".Kimpton" />
+        <activity android:name=".Hilton" />
+        <activity android:name=".Del" />
+
+    </application>
+
+</manifest>
