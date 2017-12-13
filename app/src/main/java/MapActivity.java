@@ -5,7 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import jetstreams.jetstreamsproject.R;
 
 /**
- * Created by Goemon on 11/11/2017.
+ * Created by Kevin on 11/11/2017.
+ * Commented by Ashwin.
+ * Purpose: To create a map activity.
  */
 
 public class MapActivity extends AppCompatActivity {
